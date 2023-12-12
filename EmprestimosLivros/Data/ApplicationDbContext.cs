@@ -4,6 +4,10 @@ namespace EmprestimosLivros.Data
 {
     public class ApplicationDbContext : DbContext
     {
+        public ApplicationDbContext()
+        {
+
+        }
 
     }
 }
