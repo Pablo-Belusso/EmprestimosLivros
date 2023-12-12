@@ -1,6 +1,9 @@
-﻿namespace EmprestimosLivros.Data
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace EmprestimosLivros.Data
 {
-    public class ApplicationDbContext
+    public class ApplicationDbContext : DbContext
     {
+
     }
 }
