@@ -4,7 +4,7 @@ namespace EmprestimosLivros.Data
 {
     public class ApplicationDbContext : DbContext
     {
-        public ApplicationDbContext()
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext>)
         {
 
         }
