@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using EmprestimosLivros.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace EmprestimosLivros.Data
 {
@@ -8,6 +9,8 @@ namespace EmprestimosLivros.Data
         {
 
         }
+
+        public DbSet<EmprestimosModel>
 
     }
 }
