@@ -1,0 +1,6 @@
+
+
+add-migration CriacaoDoBanco
+
+
+update-database
